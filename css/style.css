@@ -123,6 +123,16 @@ span{
     /* height: 90vh; */
 }
 
+.left-1{
+    animation: left 2s ease;
+    -webkit-animation: left 2s ease;
+}
+
+.edit{
+    animation: right 2s ease;
+    -webkit-animation: right 2s ease;
+}
+
 .line-1{
     font-size: 7vmin;
     /* line-height: 10vmin; */
@@ -219,4 +229,26 @@ footer{
 
 p{
     color: black;
+}
+
+@keyframes left {
+    from{
+        margin-left: -50vw;
+        opacity: 0;
+    }
+    to{
+        margin-left: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes right {
+    from{
+        margin-left: -150vw;
+        opacity: 0;
+    }
+    to{
+        margin-left: 0;
+        opacity: 1;
+    }
 }
