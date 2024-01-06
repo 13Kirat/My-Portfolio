@@ -154,9 +154,10 @@ img {
 
 
 .project-card{
+    /* height: 50vh; */
     padding: 5vmin;
     background-color: #003049;
-    border: 1px solid black;
+    border: 5px white double;
     color: #fefae0;
     text-align: center;
     transition: all ease 1s;
@@ -180,10 +181,14 @@ img {
     text-decoration: none;
 }
 
+.img-fluid{
+    object-fit: fill;
+}
+
 /* page 3 */
 
 .page-three{
-    background-color: #d4a373;
+    background-color: #bbb;
     color: #fefae0;
 }
 
