@@ -119,7 +119,7 @@
  /* page one */
 
  .page-one {
-     background-color: #bb7027;
+     background-color: black;
      /* height: 90vh; */
  }
 
@@ -167,7 +167,7 @@
  .project-card {
      /* height: 50vh; */
      padding: 5vmin;
-     background-color: grey;
+     background-color: black;
      border: 1px white dashed;
      color: #fefae0;
      text-align: center;
@@ -199,7 +199,7 @@
  /* page 3 */
 
  .page-three {
-     background-color: #ccc;
+     background-color: black;
      color: #fefae0;
  }
 
@@ -212,7 +212,7 @@
  /* page 4 */
 
  .contact-form {
-     background-color: #aaa;
+     background-color: black;
      color: #fefae0;
      font-size: 3vmin;
  }
